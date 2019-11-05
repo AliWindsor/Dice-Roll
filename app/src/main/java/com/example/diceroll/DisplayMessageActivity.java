@@ -18,14 +18,18 @@ public class DisplayMessageActivity extends AppCompatActivity {
         // Get the Intent that started this activity and extract the string
         Intent intent = getIntent();
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+        String message2 = intent.getStringExtra(MainActivity.EXTRA_MESSAGE2);
+        String message3 = intent.getStringExtra(MainActivity.EXTRA_MESSAGE3);
 
-//        Random randomGenerator = new Random();
-//        int randomInt = randomGenerator.nextInt(6) + 1;
-
-        //int dieRoll =
 
         // Capture the layout's TextView and set the string as its text
         TextView textView = findViewById(R.id.textView);
         textView.setText(message);
+
+        TextView textView5 = findViewById(R.id.textView5);
+        textView5.setText(message2);
+
+        TextView textView6 = findViewById(R.id.textView6);
+        textView6.setText(message3);
     }
 }
