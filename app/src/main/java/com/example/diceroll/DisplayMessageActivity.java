@@ -31,5 +31,6 @@ public class DisplayMessageActivity extends AppCompatActivity {
 
         TextView textView6 = findViewById(R.id.textView6);
         textView6.setText(message3);
+        //test
     }
 }

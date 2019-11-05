@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         int rollNo = Integer.parseInt(roll);
 
         if (guessIt == rollNo){
-            winLose = "Congratulations!!";
+            winLose = "Congratulations!!.";
         }else {
             winLose = "Try Again :(";
         }
