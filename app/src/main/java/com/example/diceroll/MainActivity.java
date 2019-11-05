@@ -65,8 +65,8 @@ public class MainActivity extends AppCompatActivity {
 
         if (guessIt == rollNo){
             winLose = "Congratulations!!";
-        }else{
-            winLose ="Try Again :(";
+        }else {
+            winLose = "Try Again :(";
         }
 
         intent.putExtra(EXTRA_MESSAGE3, winLose);
