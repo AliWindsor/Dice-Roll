@@ -1,7 +1,11 @@
 <resources>
-    <string name="app_name">Dice Roll</string>
-    <string name="rollButton">Roll Dice</string>
+    <string name="app_name">CounterTest</string>
     <string name="editText">Guess a number (1-6)</string>
-    <string name="diceNumber">The dice landed on:</string>
-    <string name="guessText">You guessed:</string>
+    <string name="dieNum">"The die landed on: "</string>
+    <string name="numGuess">You guessed:</string>
+    <string name="score">0</string>
+    <string name="die">-</string>
+    <string name="guess">-</string>
+    <string name="winLoseTxt">-</string>
+    <string name="rollButton">Roll Dice</string>
 </resources>
